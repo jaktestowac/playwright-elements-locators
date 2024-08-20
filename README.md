@@ -19,10 +19,11 @@ Zlokalizuj etap który chcesz zobaczyć (może to być sekcja lub lekcja)
 
 - Katalogi rozpoczynające się od `S`:
   - oznaczają numer sekcji,
-  - zawierają w sobie zbiór lekcji.
-- Katalogi rozpoczynające się od `L`:
+  - zawierają w sobie projekt testów automatycznych z danej sekcji,
+- W projekcie, w katalogu `test`, znajdziesz katalogi rozpoczynające się od `L`:
   - oznaczają numer lekcji,
-  - zawierają w sobie `projekt`, który jest rezultatem danej lekcji.
+  - zawierają w sobie pliki testów z danej lekcji,
+  - posiadają plik `README.md` z opisem i linkiem do lekcji.
 
 ## Instalacja danego etapu
 
