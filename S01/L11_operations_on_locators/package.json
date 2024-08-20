@@ -1,0 +1,17 @@
+{
+  "name": "selectors_and_locators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "codegen": "npx playwright codegen"
+  },
+  "keywords": [],
+  "author": "jaktestowac.pl",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.9"
+  }
+}
