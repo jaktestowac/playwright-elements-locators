@@ -30,34 +30,4 @@ test.describe("Finding different elements using raw locators", () => {
     await expect(elementLocator).toBeVisible();
     await expect(elementLocator).toHaveText("Some text for label");
   });
-  test("Find element", async ({ page }) => {
-    // get element by alt text:
-    const locatorByAltText = page.getByAltText("Image alt text");
-
-    // get element by label text:
-    const locatorByLabelText = page.getByLabel("Some text for label");
-
-    // get element by placeholder:
-    const locatorByPlaceholder = page.getByPlaceholder("Enter your name");
-
-    // get element by role:
-    const elementLocatorByRole = page.getByRole("checkbox");
-
-    // get element by test ID:
-    const locatorByTestId = page.getByTestId("label-text");
-
-    // get element by text:
-    const locatorByText = page.getByText("Some text for label");
-
-    // get element by title:
-    const locatorByTitle = page.getByTitle("Title for label");
-
-    // CSS selector:
-    const selectorCss = "#id-label-element";
-    const locatorFromCss = page.locator(selectorCss);
-
-    // XPath selector:
-    const selectorXpath = "//*[@id='id-label-element']";
-    const locatorFromXpath = page.locator(selectorXpath);
-  });
 });

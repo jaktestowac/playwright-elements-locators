@@ -38,3 +38,15 @@ Zlokalizuj etap który chcesz zobaczyć (może to być sekcja lub lekcja)
 - uruchom testy `npx playwright test`
 
 5. Zacznij kodzić🧑‍💻
+
+## Dodatkowe materiały
+
+Polecamy również przerobić materiał z naszego kursu:
+
+[**Praktyczne wprowadzenie do testów automatycznych z Playwright**](https://jaktestowac.pl/course/playwright-wprowadzenie/)
+
+Znajdziesz tam m.in.:
+
+[**Instalacja projektu z pliku w Node.js**](https://jaktestowac.pl/lesson/pw1sb01l01/)
+[**Playwright – Twój pierwszy test automatyczny**](https://jaktestowac.pl/lesson/pw1s01l01/)
+[**Prettier, czyli formatter kodu**](https://jaktestowac.pl/lesson/pw1sb01l06/)
