@@ -3,3 +3,6 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+L14_*
+L1[7-9]_*
+L[2-9][0-9]_*
